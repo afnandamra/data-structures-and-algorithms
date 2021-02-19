@@ -72,12 +72,8 @@ For example, if the input is 'Welcome', the output will be:
 const howMuchPencil = (str) => {
   let result = [];
   // Solution code here...
-  result.push(str);
-  let arr = str.split('');
-  for (let i = 0; i < str.length; i++) {
-    arr.shift();
-    let newStr = arr.join('');
-    result.push(newStr);
+  for (let i = 0; i < str.length + 1; i++) {
+    result.push(str.slice(i));
   }
   return result;
 };
