@@ -12,4 +12,4 @@ I took the approach of making a for loop that loops through the input array star
 
 ## Solution
 
-<!-- Embedded whiteboard image -->
+![whiteboard](../assets/ArrayReverse.jpg)
