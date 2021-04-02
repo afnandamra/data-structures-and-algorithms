@@ -1,8 +1,8 @@
 # Singly Linked List
 
-Data Structures and Algorithms challenges that work with [singly linked lists](https://www.educative.io/edpresso/what-is-a-singly-linked-list).
+Creating methods for singly linked lists.
 
-1. [linked-list](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/linked-list)
+<!-- 1. [linked-list](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/linked-list) -->
 
 ## Challenge
 
@@ -60,3 +60,9 @@ The linked list code contains two classes, Node class, and LinkedList class, the
 2. `includes` method: which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node's value somewhere within the list.
 3. `toString` method: which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
    - `"{ a } -> { b } -> { c } -> NULL"`
+
+## Resources and Collaborators
+
+- [singly linked lists](https://www.educative.io/edpresso/what-is-a-singly-linked-list).
+- Code Fellows docs on [linked lists](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html).
+- [visualgo](https://visualgo.net/en/list).
