@@ -1,5 +1,7 @@
 # Data Structures and Algorithms
 
+This repository contains my solutions to a list of code challenges and datastructures from codefellows 301 and 401 courses.
+
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
 
 ## 301 Code Challenges
@@ -22,7 +24,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC13 | [Strings](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/301/CC13:%20strings) |
 | CC14 | [Review](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/301/CC14:%20review) |
 
-## 401 Data Structures, Code Challenges
+## 401 Code Challenges
 
 ### **Table of Contents**
 | #CC | Name |
@@ -30,3 +32,10 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC01 | [Array Reverse](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC01:%20arrayReverse) |
 | CC02 | [Array Shift](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC02:%20arrayShift) |
 | CC03 | [Array Binay Search](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC03:%20arrayBinarySearch) |
+
+## 401 Data Structures
+
+### **Table of Contents**
+| #DS | Name |
+| --- | ---- |
+| DS01 | [Linked List](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/linked-list)
