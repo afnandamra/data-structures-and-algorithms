@@ -2,7 +2,8 @@
 
 Creating methods for singly linked lists.
 
-<!-- 1. [linked-list](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/linked-list) -->
+1. [linked-list PR](https://github.com/afnandamra/data-structures-and-algorithms/pull/19)
+2. [ll-ininsertions PR](https://github.com/afnandamra/data-structures-and-algorithms/pull/20)
 
 ## Challenge
 
@@ -14,6 +15,9 @@ Creating methods for singly linked lists.
   - Define a method called `includes` which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node's value somewhere within the list.
   - Define a method called `toString` which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
     - `"{ a } -> { b } -> { c } -> NULL"`
+  - Define a method called `.append(value)` which adds a new node with the given value to the end of the list.
+  - Define a method called `.insertBefore(value, newVal)` which add a new node with the given newValue immediately before the first value node.
+  - Define a method called `.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node.
 - Any exceptions or errors that come from your code should be semantic, capturable errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom, semantic error that describes what went wrong in calling the methods you wrote for this lab.
 - Be sure to follow your language/frameworks standard naming conventions.
 
@@ -30,6 +34,12 @@ Write tests to prove the following functionality:
 5. Will return true when finding a value within the linked list that exists
 6. Will return false when searching for a value in the linked list that does not exist
 7. Can properly return a collection of all the values that exist in the linked list
+8. Can successfully add a node to the end of the linked list
+9. Can successfully add multiple nodes to the end of a linked list
+10. Can successfully insert a node before a node located i the middle of a linked list
+11. Can successfully insert a node before the first node of a linked list
+12. Can successfully insert after a node in the middle of the linked list
+13. Can successfully insert a node after the last node of the linked list
 
 ![linked-list-test](../assets/linked-list.PNG)
 
@@ -60,6 +70,9 @@ The linked list code contains two classes, Node class, and LinkedList class, the
 2. `includes` method: which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node's value somewhere within the list.
 3. `toString` method: which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
    - `"{ a } -> { b } -> { c } -> NULL"`
+4. `.append(value)` method: which adds a new node with the given value to the end of the list.
+5. `.insertBefore(value, newVal)` method: which add a new node with the given newValue immediately before the first value node.
+6. `.insertAfter(value, newVal)` method: which add a new node with the given newValue immediately after the first value node.
 
 ## Resources and Collaborators
 
