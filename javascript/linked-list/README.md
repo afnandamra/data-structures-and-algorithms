@@ -4,6 +4,7 @@ Creating methods for singly linked lists.
 
 1. [linked-list PR](https://github.com/afnandamra/data-structures-and-algorithms/pull/19)
 2. [ll-ininsertions PR](https://github.com/afnandamra/data-structures-and-algorithms/pull/20)
+3. [ll-kth-from-end PR](https://github.com/afnandamra/data-structures-and-algorithms/pull/21)
 
 ## Challenge
 
