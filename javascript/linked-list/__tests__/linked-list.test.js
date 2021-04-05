@@ -67,3 +67,26 @@ describe('LL Insertions', () => {
     expect(list.toString()).toBe('{ 91 } -> { 40 } -> { 57 } -> { 23 } -> { 5 } -> { 13 } -> { 76 } -> NULL');
   });
 });
+
+describe('LL kth From End', () => {
+  it('should find kth value in a linked list', () => {
+    expect(list.kthFromEnd(0)).toEqual(76);
+    expect(list.kthFromEnd(1)).toEqual(13);
+    expect(list.kthFromEnd(2)).toEqual(5);
+    expect(list.kthFromEnd(7)).toEqual(91);
+  });
+  it('should find kth value in a linked list if the linked list is of a size 1', () => {
+    let newList = new LinkedList();
+    newList.append(10);
+    expect(newList.kthFromEnd(0)).toEqual(10);
+    expect(newList.kthFromEnd(1)).toEqual('Exception');
+  });
+  it('should give an Exception if the value is not valid', () => {
+    expect(list.kthFromEnd(-1)).toEqual('Exception');
+    expect(list.kthFromEnd(2.5)).toEqual('Exception');
+    expect(list.kthFromEnd(-1)).toEqual('Exception');
+  });
+  it('should give an Exception if the value is greater than the length of the linked list', () => {
+    expect(list.kthFromEnd(8)).toEqual('Exception');
+  });
+});

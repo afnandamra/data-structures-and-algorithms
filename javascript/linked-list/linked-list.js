@@ -85,17 +85,45 @@ class LinkedList {
 
   insertAfter(value, newVal){
     let newNode = new Node(newVal);
-    let current = this.head;
-    while (current) {
-      if (current.value === value) {
-        let temp = current.next;
-        current.next = newNode;
-        newNode.next = temp;
-        return;
+    if (this.head) {
+      let current = this.head;
+      while (current) {
+        if (current.value === value) {
+          let temp = current.next;
+          current.next = newNode;
+          newNode.next = temp;
+          return;
+        }
+        current = current.next;
       }
-      current = current.next;
     }
     return 'Value doesn\'t exist';
+  }
+
+  kthFromEnd(k){
+    if (typeof k !== 'number' || !Number.isInteger(k) || k<0){
+      return 'Exception';
+    }
+    let length = 0;
+    if(this.head){
+      let current = this.head;
+      length++;
+      while(current.next){
+        current = current.next;
+        length++;
+      }
+      if (length === 1){
+        return (k === 0)?current.value:'Exception';
+      }
+      if (k <= length){
+        current = this.head;
+        for (let i = 1; i < length - k; i++) {
+          current = current.next;
+        }
+        return current.value;
+      }
+    }
+    return 'Exception';
   }
 }
 
