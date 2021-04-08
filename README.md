@@ -32,11 +32,5 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC01 | [Array Reverse](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC01:%20arrayReverse) |
 | CC02 | [Array Shift](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC02:%20arrayShift) |
 | CC03 | [Array Binay Search](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC03:%20arrayBinarySearch) |
-| CC04 | [ll-Zip](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/llZip) |
-
-## 401 Data Structures
-
-### **Table of Contents**
-| #DS | Name |
-| --- | ---- |
-| DS01 | [Linked List](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/linked-list)
+| CC05 - CC06 - CC07 | [Linked List](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/linked-list) |
+| CC08 | [ll-Zip](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/llZip) |
