@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-This repository contains my solutions to a list of code challenges and datastructures from codefellows 301 and 401 courses.
+This repository contains my solutions to a list of code challenges and data structures from codefellows 301 and 401 courses.
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
 
@@ -29,8 +29,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 ### **Table of Contents**
 | #CC | Name |
 | --- | ---- |
-| CC01 | [Array Reverse](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC01:%20arrayReverse) |
-| CC02 | [Array Shift](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC02:%20arrayShift) |
-| CC03 | [Array Binay Search](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/code-challenges/401/CC03:%20arrayBinarySearch) |
-| CC05 - CC06 - CC07 | [Linked List](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/linked-list) |
-| CC08 | [ll-Zip](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/llZip) |
+| CC01 | [Array Reverse](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC01:%20arrayReverse) |
+| CC02 | [Array Shift](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC02:%20arrayShift) |
+| CC03 | [Array Binay Search](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC03:%20arrayBinarySearch) |
+| CC05 - CC06 - CC07 | [Linked List](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/linked-list) |
+| CC08 | [ll-Zip](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/llZip) |
