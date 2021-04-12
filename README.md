@@ -33,6 +33,6 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC02 | [Array Shift](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC02:%20arrayShift) |
 | CC03 | [Array Binay Search](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC03:%20arrayBinarySearch) |
 | CC05 - CC06 - CC07 | [Linked List](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/linked-list) |
-| CC08 | [ll-Zip](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/llZip) |
+| CC08 | [ll-Zip](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC08:%20llZip) |
 | CC10 | [Stacks and Queues](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/stacksAndQueues) |
-| CC11 | [Queue with Stacks](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/queueWithStacks) |
+| CC11 | [Queue with Stacks](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC11:%20queueWithStacks) |

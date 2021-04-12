@@ -1,7 +1,7 @@
 'use strict';
 
 // const Node = require('../stacksAndQueues/node');
-const { Stack } = require('../stacksAndQueues/stacks-and-queues');
+const { Stack } = require('../../data-structure/stacksAndQueues/stacks-and-queues');
 
 class PseudoQueue {
   constructor() {
