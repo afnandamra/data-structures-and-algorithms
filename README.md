@@ -38,3 +38,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC11 | [Queue with Stacks](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC11:%20queueWithStacks) |
 | CC12 | [FIFO Animal Shelter](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC12:%20fifoAnimalShelter) |
 | CC13 | [Multi-Bracket Validation](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC13:%20multiBracketValidation) |
+| CC15 | [Multi-Bracket Validation](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/tree) |
