@@ -47,12 +47,15 @@ Write tests to prove the following functionality:
 
 <!-- Description of each method publicly available to your Linked List -->
 
-The Stack class code contains four methods:
+The BinaryTree class contains three methods:
 
-1. **`push(value)`** Adds a node to the stack.
-2. **`pop()`** Removes a node from the stack.
-3. **`peek()`** Returns the stack's top value.
-4. **`isEmpty()`** Checks if a stack is empty.
+1. **`preOrder()`** Returns an array with the tree values ordered root > left > right.
+2. **`inOrder()`** Returns an array with the tree values ordered left > root > right.
+3. **`postOrder()`** Returns an array with the tree values ordered root > left > right.
+
+The BinarySearchTree contains two methods:
+1. **`add(value)`** Adds the input value in its place in the sorted tree.
+2. **`contains(value)`** Search the tree and checks if the input value exists.
 
 
 ## Solution
