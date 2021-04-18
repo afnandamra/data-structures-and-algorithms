@@ -37,6 +37,7 @@ Write tests to prove the following functionality:
 - preOrder: space O(h)/time O(n)
 - inOrder: space O(h)/time O(n)
 - postOrder: space O(h)/time O(n)
+- getMax: space O(n)/time O(n)
 
 ### BinarySearchTree
 - add(value): space O(1)/time O(n)
@@ -52,6 +53,7 @@ The BinaryTree class contains three methods:
 1. **`preOrder()`** Returns an array with the tree values ordered root > left > right.
 2. **`inOrder()`** Returns an array with the tree values ordered left > root > right.
 3. **`postOrder()`** Returns an array with the tree values ordered root > left > right.
+4. **`getMax()`** Returns the maximum value of a numeric tree.
 
 The BinarySearchTree contains two methods:
 1. **`add(value)`** Adds the input value in its place in the sorted tree.
@@ -61,6 +63,9 @@ The BinarySearchTree contains two methods:
 ## Solution
 
 ![image](../assets/DS06.jpg)
+
+getMax() method: 
+![image](../assets/CC16.jpg)
 
 ## Resources and Collaborators
 

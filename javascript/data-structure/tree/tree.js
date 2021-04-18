@@ -39,6 +39,16 @@ class BinaryTree {
     _traverse(this.root);
     return results;
   }
+
+  getMax() {
+    if (!this.root) return 'Empty Tree!';
+    let max = this.root.value;
+    let arr = this.inOrder();
+    arr.forEach((val) => {
+      if (val > max) max = val;
+    });
+    return max;
+  }
 }
 
 class BinarySearchTree {
@@ -50,19 +60,19 @@ class BinarySearchTree {
     // empty tree
     if (this.root === null) {
       this.root = newNode;
-    //   return;
+      //   return;
     }
     const _traverse = (node) => {
       if (value < node.value) {
         if (node.left === null) {
           node.left = newNode;
-        //   return;
+          //   return;
         }
         _traverse(node.left);
       } else if (value > node.value) {
         if (node.right === null) {
           node.right = newNode;
-        //   return;
+          //   return;
         }
         _traverse(node.right);
       }

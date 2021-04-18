@@ -61,6 +61,13 @@ describe('Binary Tree', () => {
     const postOrder = tree.postOrder();
     expect(postOrder).toEqual(expected);
   });
+  it('can get maximum value in a tree', () => {
+    expect(tree.getMax()).toEqual(8);
+  });
+  it('returns an exception if tried to get maximum value of empty tree', () => {
+    let newTree = new BinaryTree();
+    expect(newTree.getMax()).toBe('Empty Tree!');
+  });
 });
 
 describe('Binary Search Tree', () => {
