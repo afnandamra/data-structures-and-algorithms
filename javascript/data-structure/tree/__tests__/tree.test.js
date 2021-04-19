@@ -68,6 +68,15 @@ describe('Binary Tree', () => {
     let newTree = new BinaryTree();
     expect(newTree.getMax()).toBe('Empty Tree!');
   });
+  it('can successfully return a collection from a breadth traversal', () => {
+    const expected = [1, 2, 3, 4, 5, 6, 7, 8];
+    const breadth = tree.breadth();
+    expect(breadth).toEqual(expected);
+  });
+  it('returns an exception if tried to return a collection from a breadth of empty tree', () => {
+    let newTree = new BinaryTree();
+    expect(newTree.breadth()).toBe('Empty Tree!');
+  });
 });
 
 describe('Binary Search Tree', () => {
