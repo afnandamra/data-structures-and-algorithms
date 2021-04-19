@@ -1,5 +1,6 @@
 'use strict';
 
+const { Queue } = require('../stacksAndQueues/stacks-and-queues');
 const Node = require('./node');
 
 class BinaryTree {
@@ -48,6 +49,35 @@ class BinaryTree {
       if (val > max) max = val;
     });
     return max;
+  }
+
+  // breadth() {
+  //   const results = [];
+  //   let queue = new Queue();
+  //   if (this.root) queue.enqueue(this.root);
+  //   else return 'Empty Tree!';
+  //   const _traverse = (node) => {
+  //     results.push(node.value);
+  //     if (node.left) queue.enqueue(node.left);
+  //     if (node.right) queue.enqueue(node.right);
+  //     if(!queue.isEmpty()) _traverse(queue.dequeue());
+  //   };
+  //   _traverse(queue.dequeue());
+  //   return results;
+  // }
+
+  breadth() {
+    let results = [];
+    let queue = new Queue();
+    if (this.root) queue.enqueue(this.root);
+    else return 'Empty Tree!';
+    while (!queue.isEmpty()) {
+      let front = queue.dequeue();
+      results.push(front.value);
+      if(front.left) queue.enqueue(front.left);
+      if(front.right) queue.enqueue(front.right);
+    }
+    return results;
   }
 }
 
