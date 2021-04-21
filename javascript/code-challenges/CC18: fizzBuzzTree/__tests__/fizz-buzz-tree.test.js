@@ -16,6 +16,7 @@ describe('Binary Tree', () => {
   const eight = new Node(8, 3);
   const nine = new Node(9, 3);
   const ten = new Node(10, 3);
+  const fifteen = new Node(15, 3);
 
   one.children[0] = two;
   one.children[1] = three;
@@ -26,15 +27,16 @@ describe('Binary Tree', () => {
   three.children[0] = eight;
   three.children[1] = nine;
   four.children[0] = ten;
+  four.children[1] = fifteen;
   it('return an exception if the input tree in empty', () => {
     tree = new KaryTree(3);
     expect(fizzBuzzTree(tree)).toBe('Empty Tree!');
   });
   it('return a new tree with modified values', () => {
-    let expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15];
     tree.root = one;
     expect(tree.breadth()).toEqual(expected);
-    let output = ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz'];
+    let output = ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', 'FizzBuzz'];
     let breadth = fizzBuzzTree(tree).breadth();
     expect(breadth).toEqual(output);
   });
