@@ -31,4 +31,5 @@ I took the approach of iterating over the tree (breadth first approach) to modif
 ![image](../assets/CC18.jpg)
 
 ## Resources and Collaborators
+- Discussed the idea with Faten and Raghad
 - Code Fellows docs on [Trees](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/Trees.html)
