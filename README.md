@@ -39,3 +39,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC12 | [FIFO Animal Shelter](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC12:%20fifoAnimalShelter) |
 | CC13 | [Multi-Bracket Validation](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC13:%20multiBracketValidation) |
 | CC15 - CC16 - CC17 | [Trees](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/tree) |
+| CC18 | [fizzBuzzTree](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC18:%20fizzBuzzTree) |
