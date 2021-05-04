@@ -41,3 +41,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC15 - CC16 - CC17 | [Trees](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/tree) |
 | CC18 | [fizzBuzzTree](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC18:%20fizzBuzzTree) |
 | CC26 | [insertionSort](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC26:%20insertionSort) |
+| CC27 | [mergeSort](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC27:%20mergeSort) |
