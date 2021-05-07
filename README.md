@@ -44,3 +44,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC27 | [mergeSort](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC27:%20mergeSort) |
 | CC28 | [quickSort](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC28:%20quickSort) |
 | CC30 | [hashtable](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/hashtable) |
+| CC31 | [Repeated Word](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC31:%20repeatedWord) |

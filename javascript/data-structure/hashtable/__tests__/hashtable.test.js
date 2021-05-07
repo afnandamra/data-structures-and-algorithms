@@ -19,8 +19,6 @@ let hashTable = new HashTable(50);
 // console.log(hashTable.hash('damra'));
 // console.log(hashTable.hash('name'));
 
-
-
 describe('Hash Table', () => {
   it('should create a hashed table', () => {
     let hashTable = new HashTable(50);
