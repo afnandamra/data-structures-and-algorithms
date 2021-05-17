@@ -19,7 +19,7 @@ run `npm test tree-intersection` to check that the function is working correctly
 2. using the `Array.filter()` function, compare the two arrays and create a new array with common values
 3. return the result array
 
-- **time:** O(n)
+- **time:** O(n^2)
 - **space:** O(n)
 
 ## Solution
