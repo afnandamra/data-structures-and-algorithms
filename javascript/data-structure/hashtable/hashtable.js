@@ -9,8 +9,8 @@ class HashTable {
 
   hash(key) {
     const asciiSum = key.split('').reduce((acc, val) => {
-      return acc + val.charCodeAt(0);
-    }, 0);
+      return acc * val.charCodeAt(0);
+    }, 1);
     return (asciiSum * 71) % this.table.length;
   }
 
