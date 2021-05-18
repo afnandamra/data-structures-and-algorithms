@@ -22,7 +22,7 @@ run `npm test tree-intersection` to check that the function is working correctly
 5. iterate over the second tree, check each value, if it is already in the hashtable, push it to the result array
 6. return the array or an exception
 
-- **time:** O(n)
+- **time:** O(n^2)
 - **space:** O(n)
 
 ## Solution
