@@ -6,6 +6,7 @@ const Graph = require('./graph');
 class BreadthFirst extends Graph {
   // Breadth-first: uses a queue to track where you've been.
   breadth(startingNode) {
+    if(!startingNode) return 'INVALID NODE';
     // Our queue class
     const queue = new Queue();
     // A set is an object that will only store unique keys.
@@ -39,7 +40,7 @@ class BreadthFirst extends Graph {
     }
     // console.log(result);
     // Return the Set, so that there is a list of all visited nodes.
-    return visitedNodes;
+    return visitedNodes.size > 0 ? visitedNodes : 'EMPTY GRAPH';
   }
 }
 

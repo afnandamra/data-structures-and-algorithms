@@ -1,6 +1,6 @@
 'use strict';
 
-const BreadthFirst = require('../breadthFirst');
+const BreadthFirst = require('../breadth-first');
 const Vertex = require('../vertex');
 
 describe('Graph Breadth Test', () => {
@@ -76,5 +76,10 @@ describe('Graph Breadth Test', () => {
     graph.addEdge(Narnia, Naboo);
 
     expect(graph.breadth(Pandora)).toEqual(expectedSet);
+  });
+  it('should return an exception if the node is invalid', () => {
+    const graph = new BreadthFirst();
+
+    expect(graph.breadth()).toEqual('INVALID NODE');
   });
 });
