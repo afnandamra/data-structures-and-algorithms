@@ -1,17 +1,6 @@
 'use strict';
 
-class Vertex {
-  constructor(value) {
-    this.value = value;
-  }
-}
-
-class Edge {
-  constructor(vertex, weight = 0) {
-    this.vertex = vertex;
-    this.weight = weight;
-  }
-}
+const Edge = require('./edge');
 
 class Graph {
   constructor() {
@@ -24,7 +13,10 @@ class Graph {
   }
 
   addEdge(startVertex, endVertex, weight) {
-    if (!this._adjacencyList.has(startVertex) || !this._adjacencyList.has(endVertex)) {
+    if (
+      !this._adjacencyList.has(startVertex) ||
+      !this._adjacencyList.has(endVertex)
+    ) {
       return 'INVALID NODE';
       // throw new Error('INVALID NODE');
     } else {
@@ -59,8 +51,4 @@ class Graph {
   }
 }
 
-module.exports = {
-  Vertex,
-  Edge,
-  Graph,
-};
+module.exports = Graph;

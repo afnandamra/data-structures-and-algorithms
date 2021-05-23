@@ -1,6 +1,7 @@
 'use strict';
 
-let {Graph, Vertex} = require('../graph');
+const Graph = require('../graph');
+const Vertex = require('../vertex');
 
 describe('Graph Test', () => {
   const graph = new Graph();
