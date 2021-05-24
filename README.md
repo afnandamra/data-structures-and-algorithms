@@ -47,4 +47,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 | CC31 | [Repeated Word](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC31:%20repeatedWord) |
 | CC32 | [Tree Intersection](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC32:%20treeIntersection) |
 | CC33 | [Left Join](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/code-challenges/CC33:%20leftJoin) |
-| CC35 - CC36 | [graph](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/graph) |
+| CC35 - CC36 - CC37 | [graph](https://github.com/afnandamra/data-structures-and-algorithms/tree/master/javascript/data-structure/graph) |
